@@ -1,7 +1,14 @@
+import MainNavigation from "./MainNavigation";
 import classes from "./Layout.module.css";
 
-function layout() {
-    return <div></div>;
+function Layout(props) {
+    return (
+        <div>
+            <MainNavigation />
+
+            <main className={classes.main}>{props.children}</main>
+        </div>
+    );
 }
 
 export default Layout;
