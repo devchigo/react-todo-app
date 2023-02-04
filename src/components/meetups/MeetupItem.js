@@ -35,7 +35,7 @@ function MeetupItem(props) {
                 </div>
                 <div className={classes.actions}>
                     <button onClick={toggleFavoriteStatusHandler}>
-                        {itemIsFavorite ? "Remove front Favorite" : "To Favorites"}
+                        {itemIsFavorite ? "Remove from Favorite" : "To Favorites"}
                     </button>
                 </div>
             </Card>
